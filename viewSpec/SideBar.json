@@ -1,0 +1,70 @@
+{
+    "name" : "SideBar",
+    "type" : "html",
+    "html" : "<div class=\"sidebar\">\n  <nav class=\"sidebar-nav\">\n    <ul class=\"nav\">\n      <li class=\"nav-title text-center\">\n        <span>Overview</span>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" nm=\"home_\" href=\"#\">\n          <i class=\"icon-speedometer\"></i>\n          Dashboard \n        </a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" nm=\"charts\" href=\"#\">\n          <i class=\"icon-pie-chart\"></i>\n          Traffic\n        </a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" nm=\"sales\" href=\"#\">\n          <i class=\"icon-calculator\"></i>\n          Sales\n        </a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" nm=\"users\" href=\"#\" data-action-type=\"view\">\n          <i class=\"icon-people\"></i>\n          Subscribers\n        </a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" nm=\"revenue\" href=\"#\">\n          <i class=\"fa fa-line-chart\"></i>\n          Revenue Projection\n        </a>\n      </li>\n      <li class=\"divider\">\n      </li>\n      <li class=\"nav-title text-center\">\n        <span>Priority Items</span>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" nm=\"alerts\" href=\"#\">\n          <i class=\"icon-bell\"></i>\n          Alerts\n        </a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" nm=\"logs\" href=\"#\">\n          <i class=\"icon-layers\"></i>\n          Logs\n        </a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" nm=\"analytics\" href=\"#\">\n          <i class=\"icon-chart\"></i>\n          Analytics\n          <span class=\"badge badge-info\">NEW</span>\n        </a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" nm=\"ab-testing\" href=\"#\">\n          <i class=\"icon-shuffle\"></i>\n          A-B Testing Results\n        </a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" nm=\"recommendations\" href=\"#\">\n          <i class=\"icon-compass\"></i>\n          Recommendations\n          <span class=\"badge badge-info\">NEW</span>\n        </a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" nm=\"reports\" href=\"#\">\n          <i class=\"icon-notebook\"></i>\n          Other Reports\n        </a>\n      </li>\n      <li class=\"divider\">\n      </li>\n      <li class=\"nav-title text-center\">\n        <span>Extras</span>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" nm=\"topology\" href=\"#\">\n          <i class=\"icon-globe\"></i>\n          Topology\n        </a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" nm=\"failure-recovery\" href=\"#\">\n          <i class=\"icon-shield\"></i>\n          Failures &amp; Recoveries\n        </a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" nm=\"ex-repots\" href=\"#\">\n          <i class=\"icon-notebook\"></i>\n          External Reports\n        </a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" nm=\"calendar\" href=\"#\">\n          <i class=\"icon-calendar\"></i>\n          Calendar\n        </a>\n      </li>\n    </ul>\n  </nav>\n</div>\n\n",
+    "width" : "250px",
+    "minWidth" : "250px",
+    "actionSpecs" : [
+      {
+        "name" : "home_",
+        "type" : "view"
+      },
+      {
+        "name" : "charts",
+        "type" : "view"
+      },
+      {
+        "name" : "sales",
+        "type" : "view"
+      },
+      {
+        "name" : "revenue",
+        "type" : "notYet"
+      },
+      {
+        "name" : "users",
+        "type" : "view"
+      },
+      {
+        "name" : "logs",
+        "type" : "notYet"
+      },
+      {
+        "name" : "alerts",
+        "type" : "notYet"
+      },
+      {
+        "name" : "analytics",
+        "type" : "notYet"
+      },
+      {
+        "name" : "reports",
+        "type" : "notYet"
+      },
+      {
+        "name" : "ab-testing",
+        "type" : "notYet"
+      },
+      {
+        "name" : "recommendations",
+        "type" : "notYet"
+      },
+      {
+        "name" : "topology",
+        "type" : "notYet"
+      },
+      {
+        "name" : "calendar",
+        "type" : "notYet"
+      },
+      {
+        "name" : "wikipedia",
+        "type" : "link",
+        "url" : "https://www.wikipedia.org/"
+      },
+      {
+        "name" : "about",
+        "type" : "script"
+      }
+    ]
+  }
