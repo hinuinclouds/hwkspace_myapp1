@@ -211,18 +211,6 @@
                       "name" : "Row_3",
                       "alignment" : "left",
                       "autoNav" : false,
-                      "childrenSpecs" : [
-                        {
-                          "name" : "DealsCard_1",
-                          "alignment" : "left",
-                          "autoNav" : false,
-                          "flexGrow" : "1",
-                          "reference" : "DealsCard",
-                          "tag" : "userDefined",
-                          "trigger" : "_initial_/home_",
-                          "type" : "view"
-                        }
-                      ],
                       "tag" : "userDefined",
                       "trigger" : "_initial_/home_",
                       "type" : "row"
